@@ -1,0 +1,39 @@
+Learnings from this update
+Intro to three.js 
+
+SCENE
+- Create a scene
+
+CAMERA
+- Types of camera within the scene ( array, cube, orthograhphic, perspective and stereo )
+- perspective camera == real word
+- define the parameters in the camera ( plane , perspective, fov)
+- set camera position
+
+RENDERER
+- setup a renderer ( types - webGL, css2d, css3d, svg )
+- check what is antialias in rendering
+- size of renderer
+- check "updateProjectMatrix" in three.js
+- call renderer inside requestAnimationFrame for smoother render
+
+3D / THREE.JS
+- create / import / use primitive shapes
+- part of scene
+- form(geometry) + material(skin) for a 3d element
+- can do transformation on the object ( transform, rotate, scale, shear etc )
+
+LIGHTING
+- light ( ambient, directional, hemisphereical );
+- part of scene
+- common parameters ( color, intensity, distance, decay );
+- position as well
+
+GSOC ANIMATION / TIMELINE MAX
+- idk why we use....yet 
+
+RAYCASTER
+- Determines where mouse is on the canvas.
+- And defines which object should interact on mouse events
+
+
